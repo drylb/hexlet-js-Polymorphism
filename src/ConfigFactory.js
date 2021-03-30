@@ -11,7 +11,6 @@ class ConfigFactory {
   static factory(filePath) {
     const extension = path.extname(filePath);
     const completeFilePath = path.join(process.cwd(), filePath);
-    console.log(extension);
     let temp;
     const data = fs.readFileSync(completeFilePath);
     switch (extension) {
