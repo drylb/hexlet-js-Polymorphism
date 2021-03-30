@@ -31,6 +31,7 @@
   "dependencies": {
     "@types/jest": "^26.0.21",
     "axios": "^0.21.1",
+    "js-yaml": "^3.14.1",
     "lodash": "^4.17.21",
     "random-words": "^1.1.1"
   }
